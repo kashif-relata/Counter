@@ -6,19 +6,22 @@ border-radius: 8px;
   font-weight: 500;
   font-family: inherit;
 transition: all 0.4s ease;
-
 }
+
 .counter__button:disabled {
     opacity: 0.5;
     cursor: not-allowed;
-  }
-  .counter__button:disabled:hover{
+}
+
+.counter__button:disabled:hover{
     transform: scale(1);
-  }
-  .counter__button:hover{
+}
+
+.counter__button:hover{
     transform: scale(1.02);
-  }
-  .counter__button {
+}
+
+.counter__button {
     font-size: 1.25rem;
     line-height: 1;
     border: 1px solid #888;
